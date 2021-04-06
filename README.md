@@ -1,3 +1,16 @@
+# 51、基于注意的层次多模态融合高分辨率深度图成像
+- [ ] High-resolution Depth Maps Imaging via Attention-based Hierarchical Multi-modal Fusion 
+时间：2021年04月04日                         第一作者：Zhiwei Zhong                       [链接](https://arxiv.org/abs/2104.01530).                     
+## 摘要：深度图记录了场景中视点和物体之间的距离，在许多实际应用中起着至关重要的作用。然而，消费者级RGB-D相机拍摄的深度图空间分辨率较低。引导深度图超分辨率（DSR）是解决这一问题的一种常用方法，它试图从输入的低分辨率（LR）深度及其作为引导的耦合HR-RGB图像恢复高分辨率（HR）深度图。如何正确地选择和传播一致性结构，正确地处理不一致性结构是指导DSR最具挑战性的问题。本文提出了一种新的基于注意的分层多模态融合（AHMF）网络。具体来说，为了有效地从LR深度和HR引导中提取和组合相关信息，我们提出了一种分层卷积层的多模式基于注意的融合（MMAF）策略，包括一个特征增强块，用于选择有价值的特征；一个特征重新校准块，用于统一具有不同外观特征的模式的相似性度量。在此基础上，提出了一种双向分层特征协作（BHFC）模型，充分利用多尺度特征间的低层空间信息和高层结构信息。实验结果表明，该方法在重建精度、运行速度和存储效率等方面均优于现有方法。
+<details>	<summary>英文摘要</summary>	Depth map records distance between the viewpoint and objects in the scene, which plays a critical role in many real-world applications. However, depth map captured by consumer-grade RGB-D cameras suffers from low spatial resolution. Guided depth map super-resolution (DSR) is a popular approach to address this problem, which attempts to restore a high-resolution (HR) depth map from the input low-resolution (LR) depth and its coupled HR RGB image that serves as the guidance. The most challenging problems for guided DSR are how to correctly select consistent structures and propagate them, and properly handle inconsistent ones. In this paper, we propose a novel attention-based hierarchical multi-modal fusion (AHMF) network for guided DSR. Specifically, to effectively extract and combine relevant information from LR depth and HR guidance, we propose a multi-modal attention based fusion (MMAF) strategy for hierarchical convolutional layers, including a feature enhance block to select valuable features and a feature recalibration block to unify the similarity metrics of modalities with different appearance characteristics. Furthermore, we propose a bi-directional hierarchical feature collaboration (BHFC) module to fully leverage low-level spatial information and high-level structure information among multi-scale features. Experimental results show that our approach outperforms state-of-the-art methods in terms of reconstruction accuracy, running speed and memory efficiency. </details>
+<details>	<summary>邮件日期</summary>	2021年04月06日</details>
+
+# 50、具有光谱混合和异构数据集的高光谱图像超分辨率
+- [ ] Hyperspectral Image Super-Resolution with Spectral Mixup and Heterogeneous Datasets 
+时间：2021年04月03日                         第一作者：Ke Li                       [链接](https://arxiv.org/abs/2101.07589).                     
+<details>	<summary>注释</summary>	16 pages, 14 tables, 5 figures; Code available at https://github.com/kli8996/HSISR </details>
+<details>	<summary>邮件日期</summary>	2021年04月06日</details>
+
 # 49、用于学习失调光学变焦的平方变形对准网络
 - [ ] SDAN: Squared Deformable Alignment Network for Learning Misaligned Optical Zoom 
 时间：2021年04月02日                         第一作者：Kangfu Mei                       [链接](https://arxiv.org/abs/2104.00848).                     
