@@ -1,3 +1,14 @@
+# 56、太阳电池检测的联合超分辨与校正
+- [ ] Joint Super-Resolution and Rectification for Solar Cell Inspection 
+时间：2021年04月07日                         第一作者：Mathis Hoffmann                       [链接](https://arxiv.org/abs/2011.05003).                     
+<details>	<summary>邮件日期</summary>	2021年04月08日</details>
+
+# 55、BasicVSR：寻找视频超分辨率及更高分辨率的关键组件
+- [ ] BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond 
+时间：2021年04月07日                         第一作者：Kelvin C.K. Chan                       [链接](https://arxiv.org/abs/2012.02181).                     
+<details>	<summary>注释</summary>	CVPR 2021 camera-ready </details>
+<details>	<summary>邮件日期</summary>	2021年04月08日</details>
+
 # 54、基于内容自适应超分辨率的高效视频压缩
 - [ ] Efficient Video Compression via Content-Adaptive Super-Resolution 
 时间：2021年04月06日                         第一作者：Mehrdad Khani                       [链接](https://arxiv.org/abs/2104.02322).                     
