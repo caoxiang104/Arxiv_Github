@@ -1,3 +1,21 @@
+# 60、作物类型语义切分的语境自对比预训练
+- [ ] Context-self contrastive pretraining for crop type semantic segmentation 
+时间：2021年04月09日                         第一作者：Michail Tarasiou                       [链接](https://arxiv.org/abs/2104.04310).                     
+## 摘要：本文提出了一种基于对比学习的全监督预训练方案，特别适合于密集分类任务。提出的上下文自对比丢失（CSCL）算法利用训练样本中每个位置与其局部上下文之间的相似性度量，学习一个使语义边界弹出的嵌入空间。对于卫星图像中作物类型的语义分割，我们发现包裹边界的性能是一个关键的瓶颈，并解释了CSCL如何解决该问题的根本原因，从而提高该任务的最新性能。此外，利用Sentinel-2（S2）卫星任务的图像，我们编制了据我们所知最大的卫星图像时间序列数据集，这些数据集由作物类型和包裹标识密集标注，我们与数据生成管道一起公开。利用这些数据，我们发现CSCL，即使在最小的预训练下，也可以改善所有的基线，并提出了一个超分辨率的语义分割过程，以获得更细粒度的作物类。该方法在二维和三维立体图像的语义分割任务中得到了进一步的验证，结果表明，该方法在竞争性基线下的性能得到了一致的提高。
+<details>	<summary>英文摘要</summary>	In this paper we propose a fully-supervised pretraining scheme based on contrastive learning particularly tailored to dense classification tasks. The proposed Context-Self Contrastive Loss (CSCL) learns an embedding space that makes semantic boundaries pop-up by use of a similarity metric between every location in an training sample and its local context. For crop type semantic segmentation from satellite images we find performance at parcel boundaries to be a critical bottleneck and explain how CSCL tackles the underlying cause of that problem, improving the state-of-the-art performance in this task. Additionally, using images from the Sentinel-2 (S2) satellite missions we compile the largest, to our knowledge, dataset of satellite image timeseries densely annotated by crop type and parcel identities, which we make publicly available together with the data generation pipeline. Using that data we find CSCL, even with minimal pretraining, to improve all respective baselines and present a process for semantic segmentation at super-resolution for obtaining crop classes at a more granular level. The proposed method is further validated on the task of semantic segmentation on 2D and 3D volumetric images showing consistent performance improvements upon competitive baselines. </details>
+<details>	<summary>注释</summary>	11 pages, 7 figures </details>
+<details>	<summary>邮件日期</summary>	2021年04月12日</details>
+
+# 59、基于条件元网络的多重退化盲超分辨算法
+- [ ] Conditional Meta-Network for Blind Super-Resolution with Multiple Degradations 
+时间：2021年04月09日                         第一作者：Guanghao Yin                       [链接](https://arxiv.org/abs/2104.03926).                     
+<details>	<summary>邮件日期</summary>	2021年04月12日</details>
+
+# 58、加法器：迈向节能图像超分辨率
+- [ ] AdderSR: Towards Energy Efficient Image Super-Resolution 
+时间：2021年04月09日                         第一作者：Dehua Song                       [链接](https://arxiv.org/abs/2009.08891).                     
+<details>	<summary>邮件日期</summary>	2021年04月12日</details>
+
 # 57、基于条件元网络的多重退化盲超分辨算法
 - [ ] Conditional Meta-Network for Blind Super-Resolution with Multiple Degradations 
 时间：2021年04月08日                         第一作者：Guanghao Yin                       [链接](https://arxiv.org/abs/2104.03926).                     
