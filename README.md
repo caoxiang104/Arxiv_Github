@@ -1,3 +1,9 @@
+# 71、基于互Dirichlet网的无监督无配准高光谱图像超分辨率
+- [ ] Unsupervised and Unregistered Hyperspectral Image Super-Resolution with Mutual Dirichlet-Net 
+时间：2021年04月15日                         第一作者：Ying Qu                        [链接](https://arxiv.org/abs/1904.12175).                     
+<details>	<summary>注释</summary>	Submitted to IEEE Transactions on Remote Sensing and Geoscience </details>
+<details>	<summary>邮件日期</summary>	2021年04月19日</details>
+
 # 70、缩放SlowMo：一种高效的单级时空视频超分辨率框架
 - [ ] Zooming SlowMo: An Efficient One-Stage Framework for Space-Time Video Super-Resolution 
 时间：2021年04月15日                         第一作者：Xiaoyu Xiang                       [链接](https://arxiv.org/abs/2104.07473).                     
