@@ -1,3 +1,15 @@
+# 80、立体图像超分辨率的对称视差注意
+- [ ] Symmetric Parallax Attention for Stereo Image Super-Resolution 
+时间：2021年04月20日                         第一作者：Yingqian Wang                       [链接](https://arxiv.org/abs/2011.03802).                     
+<details>	<summary>注释</summary>	Accepted to NTIRE workshop at CVPR 2021. The first two authors contribute equally to this work </details>
+<details>	<summary>邮件日期</summary>	2021年04月21日</details>
+
+# 79、提高VVC质量和超分辨率的多任务学习方法
+- [ ] Multitask Learning for VVC Quality Enhancement and Super-Resolution 
+时间：2021年04月20日                         第一作者：Charles Bonnineau                        [链接](https://arxiv.org/abs/2104.08319).                     
+<details>	<summary>注释</summary>	accepted as a conference paper to Picture Coding Symposium (PCS) 2021 </details>
+<details>	<summary>邮件日期</summary>	2021年04月21日</details>
+
 # 78、核不可知的真实图像超分辨率
 - [ ] Kernel Agnostic Real-world Image Super-resolution 
 时间：2021年04月19日                         第一作者：Hu Wang                       [链接](https://arxiv.org/abs/2104.09008).                     
