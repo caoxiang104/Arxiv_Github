@@ -1,3 +1,17 @@
+# 96、COMISR：压缩信息视频超分辨率
+- [ ] COMISR: Compression-Informed Video Super-Resolution 
+时间：2021年05月04日                         第一作者：Yinxiao Li                       [链接](https://arxiv.org/abs/2105.01237).                     
+## 摘要：大多数视频超分辨率方法的重点是从低分辨率视频中恢复高分辨率的视频帧，而不考虑压缩。然而，网络或移动设备上的大多数视频都是压缩的，当带宽有限时，压缩会很严重。本文提出了一种新的基于压缩信息的视频超分辨率模型，在不引入压缩伪影的情况下恢复高分辨率的视频内容。该模型由三个视频超分辨率模块组成：双向递归扭曲、细节保持流估计和拉普拉斯增强。所有这三个模块都用于处理压缩特性，例如输入帧中帧内的位置和输出帧中的平滑度。为了进行全面的性能评估，我们在标准数据集上进行了广泛的实验，包括许多真实的视频用例。结果表明，该方法不仅能从广泛使用的基准数据集中恢复未压缩帧上的高分辨率内容，而且在基于大量量化指标的超分辨率压缩视频中也取得了最新的性能。我们还通过模拟YouTube上的流媒体来评估该方法的有效性和鲁棒性。
+<details>	<summary>英文摘要</summary>	Most video super-resolution methods focus on restoring high-resolution video frames from low-resolution videos without taking into account compression. However, most videos on the web or mobile devices are compressed, and the compression can be severe when the bandwidth is limited. In this paper, we propose a new compression-informed video super-resolution model to restore high-resolution content without introducing artifacts caused by compression. The proposed model consists of three modules for video super-resolution: bi-directional recurrent warping, detail-preserving flow estimation, and Laplacian enhancement. All these three modules are used to deal with compression properties such as the location of the intra-frames in the input and smoothness in the output frames. For thorough performance evaluation, we conducted extensive experiments on standard datasets with a wide range of compression rates, covering many real video use cases. We showed that our method not only recovers high-resolution content on uncompressed frames from the widely-used benchmark datasets, but also achieves state-of-the-art performance in super-resolving compressed videos based on numerous quantitative metrics. We also evaluated the proposed method by simulating streaming from YouTube to demonstrate its effectiveness and robustness. </details>
+<details>	<summary>注释</summary>	14 pages, 13 figures </details>
+<details>	<summary>邮件日期</summary>	2021年05月05日</details>
+
+# 95、提高VVC质量和超分辨率的多任务学习方法
+- [ ] Multitask Learning for VVC Quality Enhancement and Super-Resolution 
+时间：2021年05月03日                         第一作者：Charles Bonnineau                        [链接](https://arxiv.org/abs/2104.08319).                     
+<details>	<summary>注释</summary>	accepted as a conference paper to Picture Coding Symposium (PCS) 2021 </details>
+<details>	<summary>邮件日期</summary>	2021年05月05日</details>
+
 # 94、基于对抗图神经网络的脑图超分辨及其在脑功能连接中的应用
 - [ ] Brain Graph Super-Resolution Using Adversarial Graph Neural Network with Application to Functional Brain Connectivity 
 时间：2021年05月02日                         第一作者：Megi Isallari                        [链接](https://arxiv.org/abs/2105.00425).                     
