@@ -1,3 +1,39 @@
+# 211、在盲超分辨中寻找特定退化的鉴别滤波器
+- [ ] Finding Discriminative Filters for Specific Degradations in Blind Super-Resolution 
+时间：2021年08月02日                         第一作者：Liangbin Xie                       [链接](https://arxiv.org/abs/2108.01070).                     
+## 摘要：最近的盲超分辨率（SR）方法通常由两个分支组成，一个用于退化预测，另一个用于条件恢复。然而，我们的实验表明，单分支网络可以实现与双分支方案相当的性能。然后我们想知道：单分支网络如何自动学会区分退化？为了找到答案，我们提出了一种新的诊断工具——基于积分梯度的滤波归因方法（FAIG）。与以前的积分梯度方法不同，我们的FAIG旨在寻找最具辨别力的滤波器，而不是用于盲SR网络中去除退化的输入像素/特征。利用所发现的滤波器，我们进一步发展了一种简单而有效的方法来预测输入图像的退化。基于FAIG，我们证明，在单分支盲SR网络中，1）我们能够为每个特定退化找到非常少的（1%）鉴别滤波器；2） 发现的过滤器的权重、位置和连接对于确定特定网络功能都很重要。3） 退化预测的任务可以通过这些判别滤波器隐式地实现，而无需显式的监督学习。我们的发现不仅可以帮助我们更好地理解单分支盲SR网络中的网络行为，而且可以为设计更有效的结构和诊断盲SR网络提供指导。
+<details>	<summary>英文摘要</summary>	Recent blind super-resolution (SR) methods typically consist of two branches, one for degradation prediction and the other for conditional restoration. However, our experiments show that a one-branch network can achieve comparable performance to the two-branch scheme. Then we wonder: how can one-branch networks automatically learn to distinguish degradations? To find the answer, we propose a new diagnostic tool -- Filter Attribution method based on Integral Gradient (FAIG). Unlike previous integral gradient methods, our FAIG aims at finding the most discriminative filters instead of input pixels/features for degradation removal in blind SR networks. With the discovered filters, we further develop a simple yet effective method to predict the degradation of an input image. Based on FAIG, we show that, in one-branch blind SR networks, 1) we are able to find a very small number of (1%) discriminative filters for each specific degradation; 2) The weights, locations and connections of the discovered filters are all important to determine the specific network function. 3) The task of degradation prediction can be implicitly realized by these discriminative filters without explicit supervised learning. Our findings can not only help us better understand network behaviors inside one-branch blind SR networks, but also provide guidance on designing more efficient architectures and diagnosing networks for blind SR. </details>
+<details>	<summary>注释</summary>	Tech report </details>
+<details>	<summary>邮件日期</summary>	2021年08月03日</details>
+
+# 210、基于互Dirichlet网的无监督非注册高光谱图像超分辨率
+- [ ] Unsupervised and Unregistered Hyperspectral Image Super-Resolution with Mutual Dirichlet-Net 
+时间：2021年08月02日                         第一作者：Ying Qu                        [链接](https://arxiv.org/abs/1904.12175).                     
+<details>	<summary>注释</summary>	IEEE Transactions on Remote Sensing and Geoscience DOI: 10.1109/TGRS.2021.3079518 </details>
+<details>	<summary>邮件日期</summary>	2021年08月03日</details>
+
+# 209、超分辨网络中的语义发现
+- [ ] Discovering "Semantics" in Super-Resolution Networks 
+时间：2021年08月01日                         第一作者：Yihao Liu                       [链接](https://arxiv.org/abs/2108.00406).                     
+## 摘要：超分辨率（SR）是低水平视觉领域的一项基础性和代表性任务。一般认为，从SR网络中提取的特征没有特定的语义信息，网络只是简单地学习从输入到输出的复杂非线性映射。我们能在SR网络中找到任何“语义”吗？在本文中，我们对这个问题给出了肯定的回答。通过对特征表示进行降维和可视化分析，我们成功地发现了与图像退化类型和程度相关的SR网络中的深层语义表示、深层退化表示（DDR）。我们还揭示了分类和SR网络在表示语义上的差异。通过大量的实验和分析，我们得出了一系列的观察结果和结论，这些观察结果和结论对今后的工作具有重要意义，例如解释低层CNN网络的内在机制，开发新的盲SR评估方法。
+<details>	<summary>英文摘要</summary>	Super-resolution (SR) is a fundamental and representative task of low-level vision area. It is generally thought that the features extracted from the SR network have no specific semantic information, and the network simply learns complex non-linear mappings from input to output. Can we find any "semantics" in SR networks? In this paper, we give affirmative answers to this question. By analyzing the feature representations with dimensionality reduction and visualization, we successfully discover the deep semantic representations in SR networks, \textit{i.e.}, deep degradation representations (DDR), which relate to the image degradation types and degrees. We also reveal the differences in representation semantics between classification and SR networks. Through extensive experiments and analysis, we draw a series of observations and conclusions, which are of great significance for future work, such as interpreting the intrinsic mechanisms of low-level CNN networks and developing new evaluation approaches for blind SR. </details>
+<details>	<summary>注释</summary>	discovering and interpreting deep degradation representations (DDR) in super-resolution networks </details>
+<details>	<summary>邮件日期</summary>	2021年08月03日</details>
+
+# 208、利用可变感受野二阶通道注意的热图像超分辨率
+- [ ] Thermal Image Super-Resolution Using Second-Order Channel Attention with Varying Receptive Fields 
+时间：2021年07月30日                         第一作者：Nolan B. Gutierrez                       [链接](https://arxiv.org/abs/2108.00094).                     
+## 摘要：热图像模拟了电磁光谱的长红外范围，即使在没有可见光照明的情况下也能提供有意义的信息。然而，与代表可见光连续体辐射的图像不同，由于硬件限制，红外图像固有的低分辨率。热图像的恢复对于涉及安全、搜索和救援以及军事行动的应用至关重要。在本文中，我们介绍了一个系统，以有效地重建热图像。具体来说，我们探讨了如何有效地处理对比感受野（RFs），在这种情况下，增加网络的RFs在计算上可能非常昂贵。为此，我们对可变感受野网络（AVRFN）进行了深入的研究。我们提供了一个门控卷积层，其中包含从不同的RFs中提取的高阶信息，其中RF由膨胀率参数化。通过这种方式，可以调整扩张率以使用较少的参数，从而提高AVRFN的疗效。我们的实验结果表明，与竞争对手的热图像超分辨率方法相比，我们的技术水平有所提高。
+<details>	<summary>英文摘要</summary>	Thermal images model the long-infrared range of the electromagnetic spectrum and provide meaningful information even when there is no visible illumination. Yet, unlike imagery that represents radiation from the visible continuum, infrared images are inherently low-resolution due to hardware constraints. The restoration of thermal images is critical for applications that involve safety, search and rescue, and military operations. In this paper, we introduce a system to efficiently reconstruct thermal images. Specifically, we explore how to effectively attend to contrasting receptive fields (RFs) where increasing the RFs of a network can be computationally expensive. For this purpose, we introduce a deep attention to varying receptive fields network (AVRFN). We supply a gated convolutional layer with higher-order information extracted from disparate RFs, whereby an RF is parameterized by a dilation rate. In this way, the dilation rate can be tuned to use fewer parameters thus increasing the efficacy of AVRFN. Our experimental results show an improvement over the state of the art when compared against competing thermal image super-resolution methods. </details>
+<details>	<summary>注释</summary>	To be published in the 2021 13th International Conference on Computer Vision Systems (ICVS) </details>
+<details>	<summary>邮件日期</summary>	2021年08月03日</details>
+
+# 207、低分辨率扫描病理图像的多尺度超分辨率生成
+- [ ] Multi-scale super-resolution generation of low-resolution scanned pathological images 
+时间：2021年07月30日                         第一作者：Kai Sun (1)                       [链接](https://arxiv.org/abs/2105.07200).                     
+<details>	<summary>注释</summary>	27 pages,12 figures </details>
+<details>	<summary>邮件日期</summary>	2021年08月03日</details>
+
 # 206、基于傅里叶级数展开的等变卷积滤波器参数化
 - [ ] Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions 
 时间：2021年07月30日                         第一作者：Qi Xie                        [链接](https://arxiv.org/abs/2107.14519).                     
