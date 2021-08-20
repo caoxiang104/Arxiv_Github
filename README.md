@@ -1,3 +1,80 @@
+# 229、图像超分辨率注意网络中的注意
+- [ ] Attention in Attention Network for Image Super-Resolution 
+时间：2021年08月19日                         第一作者：Haoyu Chen                       [链接](https://arxiv.org/abs/2104.09497).                     
+<details>	<summary>注释</summary>	10 pages, 8 figures. Codes are available at $\href{https://github.com/haoyuc/A2N}{\text{this https URL}}$ </details>
+<details>	<summary>邮件日期</summary>	2021年08月20日</details>
+
+# 228、提高超分辨率的一对多方法
+- [ ] One-to-many Approach for Improving Super-Resolution 
+时间：2021年08月19日                         第一作者：Sieun Park                       [链接](https://arxiv.org/abs/2106.10437).                     
+<details>	<summary>邮件日期</summary>	2021年08月20日</details>
+
+# 227、盲视频超分辨率的时间核一致性
+- [ ] Temporal Kernel Consistency for Blind Video Super-Resolution 
+时间：2021年08月18日                         第一作者：Lichuan Xiang                       [链接](https://arxiv.org/abs/2108.08305).                     
+## 摘要：基于深度学习的盲超分辨率（SR）方法最近在未知退化的放大帧中取得了前所未有的性能。这些模型能够从给定的低分辨率（LR）图像中准确估计未知的降尺度核，以便在恢复过程中利用核。尽管这些方法在很大程度上取得了成功，但它们主要基于图像，因此不利用多个视频帧中内核的时间特性。在本文中，我们研究了核的时间特性，并强调了它在盲视频超分辨率任务中的重要性。具体地说，我们测量了真实世界视频的内核时间一致性，并说明了在场景及其对象的动态性不同的视频中，估计的内核在每帧中是如何变化的。有了这一新的见解，我们回顾了以前流行的视频SR方法，并表明以前在整个恢复过程中使用固定内核的假设在放大真实世界的视频时会导致视觉伪影。为了解决这个问题，我们定制了现有的单图像和视频SR技术，以在内核估计和视频放大过程中利用内核一致性。对合成视频和真实视频的大量实验表明，从数量和质量上都有很大的恢复收益，实现了盲视频SR的最新技术，并强调了利用内核时间一致性的潜力。
+<details>	<summary>英文摘要</summary>	Deep learning-based blind super-resolution (SR) methods have recently achieved unprecedented performance in upscaling frames with unknown degradation. These models are able to accurately estimate the unknown downscaling kernel from a given low-resolution (LR) image in order to leverage the kernel during restoration. Although these approaches have largely been successful, they are predominantly image-based and therefore do not exploit the temporal properties of the kernels across multiple video frames. In this paper, we investigated the temporal properties of the kernels and highlighted its importance in the task of blind video super-resolution. Specifically, we measured the kernel temporal consistency of real-world videos and illustrated how the estimated kernels might change per frame in videos of varying dynamicity of the scene and its objects. With this new insight, we revisited previous popular video SR approaches, and showed that previous assumptions of using a fixed kernel throughout the restoration process can lead to visual artifacts when upscaling real-world videos. In order to counteract this, we tailored existing single-image and video SR techniques to leverage kernel consistency during both kernel estimation and video upscaling processes. Extensive experiments on synthetic and real-world videos show substantial restoration gains quantitatively and qualitatively, achieving the new state-of-the-art in blind video SR and underlining the potential of exploiting kernel temporal consistency. </details>
+<details>	<summary>邮件日期</summary>	2021年08月20日</details>
+
+# 226、基于物理启发的深度网络的热图像处理
+- [ ] Thermal Image Processing via Physics-Inspired Deep Networks 
+时间：2021年08月18日                         第一作者：Vishwanath Saragadam                       [链接](https://arxiv.org/abs/2108.07973).                     
+## 摘要：我们介绍了DeepIR，一种新的热图像处理框架，它将物理精确的传感器建模与基于深度网络的图像表示相结合。我们的关键使能观测是，热传感器捕获的图像可以分解为缓慢变化、场景无关的传感器不均匀性（可以使用物理精确建模）和场景特定的辐射通量（使用基于深度网络的正则化器很好地表示）。DeepIR既不需要训练数据，也不需要定期对已知黑体目标进行地面真实性校准，因此非常适合实际的计算机视觉任务。我们通过开发新的去噪和超分辨率算法，利用相机抖动拍摄的多幅场景图像，展示了深入红外的威力。仿真和实际数据实验表明，DeepIR可以用三幅图像进行高质量的非均匀性校正，与其他方法相比，峰值信噪比（PSNR）提高了10分贝。
+<details>	<summary>英文摘要</summary>	We introduce DeepIR, a new thermal image processing framework that combines physically accurate sensor modeling with deep network-based image representation. Our key enabling observations are that the images captured by thermal sensors can be factored into slowly changing, scene-independent sensor non-uniformities (that can be accurately modeled using physics) and a scene-specific radiance flux (that is well-represented using a deep network-based regularizer). DeepIR requires neither training data nor periodic ground-truth calibration with a known black body target--making it well suited for practical computer vision tasks. We demonstrate the power of going DeepIR by developing new denoising and super-resolution algorithms that exploit multiple images of the scene captured with camera jitter. Simulated and real data experiments demonstrate that DeepIR can perform high-quality non-uniformity correction with as few as three images, achieving a 10dB PSNR improvement over competing approaches. </details>
+<details>	<summary>注释</summary>	Accepted to 2nd ICCV workshop on Learning for Computational Imaging (LCI) </details>
+<details>	<summary>邮件日期</summary>	2021年08月19日</details>
+
+# 225、多帧超分辨率深度重参数化与去噪
+- [ ] Deep Reparametrization of Multi-Frame Super-Resolution and Denoising 
+时间：2021年08月18日                         第一作者：Goutam Bhat                        [链接](https://arxiv.org/abs/2108.08286).                     
+## 摘要：我们对多帧图像恢复任务中常用的最大后验公式提出了一种深度再参数化方法。我们的方法是通过引入学习的误差度量和目标图像的潜在表示，将地图目标转换为深层特征空间。深度再参数化允许我们直接在潜在空间中建模图像形成过程，并将学习到的图像先验知识集成到预测中。因此，我们的方法利用了深度学习的优势，同时也受益于经典MAP公式提供的原则性多帧融合。我们通过对突发去噪和突发超分辨率数据集的综合实验来验证我们的方法。我们的方法为这两项任务设定了一个新的最先进水平，证明了所提议的公式的通用性和有效性。
+<details>	<summary>英文摘要</summary>	We propose a deep reparametrization of the maximum a posteriori formulation commonly employed in multi-frame image restoration tasks. Our approach is derived by introducing a learned error metric and a latent representation of the target image, which transforms the MAP objective to a deep feature space. The deep reparametrization allows us to directly model the image formation process in the latent space, and to integrate learned image priors into the prediction. Our approach thereby leverages the advantages of deep learning, while also benefiting from the principled multi-frame fusion provided by the classical MAP formulation. We validate our approach through comprehensive experiments on burst denoising and burst super-resolution datasets. Our approach sets a new state-of-the-art for both tasks, demonstrating the generality and effectiveness of the proposed formulation. </details>
+<details>	<summary>注释</summary>	ICCV 2021 Oral </details>
+<details>	<summary>邮件日期</summary>	2021年08月19日</details>
+
+# 224、提高超分辨率的一对多方法
+- [ ] One-to-many Approach for Improving Super-Resolution 
+时间：2021年08月18日                         第一作者：Sieun Park                       [链接](https://arxiv.org/abs/2106.10437).                     
+<details>	<summary>邮件日期</summary>	2021年08月19日</details>
+
+# 223、带变压器的光场图像超分辨率
+- [ ] Light Field Image Super-Resolution with Transformers 
+时间：2021年08月17日                         第一作者：Zhengyu Liang                       [链接](https://arxiv.org/abs/2108.07597).                     
+## 摘要：光场（LF）图像超分辨率（SR）旨在从低分辨率图像重建高分辨率LF图像。虽然基于CNN的方法在LF图像SR中取得了显著的效果，但这些方法不能完全模拟4D LF数据的非局部特性。在本文中，我们提出了一种简单但有效的基于变换器的LF图像SR方法。在我们的方法中，设计了一个角度变换器来整合不同视图之间的互补信息，并开发了一个空间变换器来捕获每个子孔径图像中的局部和长程相关性。利用所提出的角度和空间变换器，可以充分利用LF中的有益信息，提高SR性能。我们通过广泛的烧蚀研究验证了我们的角度和空间变换器的有效性，并在五个公共LF数据集上将我们的方法与最新的方法进行了比较。我们的方法以较小的模型尺寸和较低的计算成本实现了优越的SR性能。
+<details>	<summary>英文摘要</summary>	Light field (LF) image super-resolution (SR) aims at reconstructing high-resolution LF images from their low-resolution counterparts. Although CNN-based methods have achieved remarkable performance in LF image SR, these methods cannot fully model the non-local properties of the 4D LF data. In this paper, we propose a simple but effective Transformer-based method for LF image SR. In our method, an angular Transformer is designed to incorporate complementary information among different views, and a spatial Transformer is developed to capture both local and long-range dependencies within each sub-aperture image. With the proposed angular and spatial Transformers, the beneficial information in an LF can be fully exploited and the SR performance is boosted. We validate the effectiveness of our angular and spatial Transformers through extensive ablation studies, and compare our method to recent state-of-the-art methods on five public LF datasets. Our method achieves superior SR performance with a small model size and low computational cost. </details>
+<details>	<summary>注释</summary>	The first two authors contribute equally to this work. Code is available at https://github.com/ZhengyuLiang24/LFT </details>
+<details>	<summary>邮件日期</summary>	2021年08月18日</details>
+
+# 222、spectrai：光谱数据的深度学习框架
+- [ ] spectrai: A deep learning framework for spectral data 
+时间：2021年08月17日                         第一作者：Conor C. Horgan                        [链接](https://arxiv.org/abs/2108.07595).                     
+## 摘要：近年来，深入学习计算机视觉技术在许多成像领域取得了许多成功。然而，由于需要增强例程、光谱数据的特定体系结构和显著的内存需求，对光谱数据的深度学习应用仍然是一项复杂的任务。在这里，我们介绍了spectrai，这是一个开源的深度学习框架，旨在促进对光谱数据的神经网络训练，并使不同方法之间能够进行比较。Spectrai提供了许多内置的光谱数据预处理和增强方法、光谱数据的神经网络，包括光谱（图像）去噪、光谱（图像）分类、光谱图像分割和光谱图像超分辨率。Spectrai包括命令行和图形用户界面（GUI），旨在指导用户通过各种应用程序的模型和超参数决策。
+<details>	<summary>英文摘要</summary>	Deep learning computer vision techniques have achieved many successes in recent years across numerous imaging domains. However, the application of deep learning to spectral data remains a complex task due to the need for augmentation routines, specific architectures for spectral data, and significant memory requirements. Here we present spectrai, an open-source deep learning framework designed to facilitate the training of neural networks on spectral data and enable comparison between different methods. Spectrai provides numerous built-in spectral data pre-processing and augmentation methods, neural networks for spectral data including spectral (image) denoising, spectral (image) classification, spectral image segmentation, and spectral image super-resolution. Spectrai includes both command line and graphical user interfaces (GUI) designed to guide users through model and hyperparameter decisions for a wide range of applications. </details>
+<details>	<summary>邮件日期</summary>	2021年08月18日</details>
+
+# 221、真实ESRGAN：用纯合成数据训练真实世界的盲超分辨率
+- [ ] Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data 
+时间：2021年08月17日                         第一作者：Xintao Wang                       [链接](https://arxiv.org/abs/2107.10833).                     
+<details>	<summary>注释</summary>	Tech Report. Training/testing codes and executable files are in https://github.com/xinntao/Real-ESRGAN </details>
+<details>	<summary>邮件日期</summary>	2021年08月18日</details>
+
+# 220、端到端自适应蒙特卡罗去噪和超分辨率
+- [ ] End-to-End Adaptive Monte Carlo Denoising and Super-Resolution 
+时间：2021年08月16日                         第一作者：Xinyue Wei                       [链接](https://arxiv.org/abs/2108.06915).                     
+## 摘要：经典的蒙特卡罗路径跟踪可以在大量计算的代价下实现高质量的渲染。最近的工作利用深度神经网络来加速这一过程，通过在后处理中使用超分辨率或去噪神经网络来改善低分辨率或更少的样本渲染。然而，在以前的工作中，去噪和超分辨率仅被单独考虑。我们在这项工作中表明，在后处理中，联合超分辨率和去噪（SRD）可以进一步加速蒙特卡罗路径跟踪。这种新型的联合滤波仅允许通过路径跟踪渲染低分辨率和较少样本（因此有噪声）的图像，然后将路径跟踪馈入深度神经网络以生成高分辨率和干净的图像。这项工作的主要贡献是一种新的端到端网络体系结构，专门为SRD任务设计。它包含两个具有共享组件的级联级。我们发现，去噪和超分辨率需要非常不同的感受野，这是导致在网络设计中引入可变形卷积的关键洞察。大量的实验表明，该方法的性能优于以前的SRD任务所采用的方法及其变体。
+<details>	<summary>英文摘要</summary>	The classic Monte Carlo path tracing can achieve high quality rendering at the cost of heavy computation. Recent works make use of deep neural networks to accelerate this process, by improving either low-resolution or fewer-sample rendering with super-resolution or denoising neural networks in post-processing. However, denoising and super-resolution have only been considered separately in previous work. We show in this work that Monte Carlo path tracing can be further accelerated by joint super-resolution and denoising (SRD) in post-processing. This new type of joint filtering allows only a low-resolution and fewer-sample (thus noisy) image to be rendered by path tracing, which is then fed into a deep neural network to produce a high-resolution and clean image. The main contribution of this work is a new end-to-end network architecture, specifically designed for the SRD task. It contains two cascaded stages with shared components. We discover that denoising and super-resolution require very different receptive fields, a key insight that leads to the introduction of deformable convolution into the network design. Extensive experiments show that the proposed method outperforms previous methods and their variants adopted for the SRD task. </details>
+<details>	<summary>邮件日期</summary>	2021年08月17日</details>
+
+# 219、学习频率感知动态网络实现高效超分辨率
+- [ ] Learning Frequency-aware Dynamic Network for Efficient Super-Resolution 
+时间：2021年08月16日                         第一作者：Wenbin Xie                       [链接](https://arxiv.org/abs/2103.08357).                     
+<details>	<summary>邮件日期</summary>	2021年08月17日</details>
+
+# 218、任意输入输出波段下的高光谱图像超分辨率
+- [ ] Hyperspectral Image Super-Resolution in Arbitrary Input-Output Band Settings 
+时间：2021年08月15日                         第一作者：Zhongyang Zhang                       [链接](https://arxiv.org/abs/2103.10614).                     
+<details>	<summary>邮件日期</summary>	2021年08月17日</details>
+
 # 217、分层条件流：图像超分辨率和图像重缩放的统一框架
 - [ ] Hierarchical Conditional Flow: A Unified Framework for Image Super-Resolution and Image Rescaling 
 时间：2021年08月11日                         第一作者：Jingyun Liang                       [链接](https://arxiv.org/abs/2108.05301).                     
