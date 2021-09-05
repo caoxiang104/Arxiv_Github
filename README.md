@@ -1,3 +1,54 @@
+# 248、基于非均匀卷积WGAN的红外图像超分辨率分析
+- [ ] Infrared Image Super-Resolution via Heterogeneous Convolutional WGAN 
+时间：2021年09月02日                         第一作者：Yongsong Huang                       [链接](https://arxiv.org/abs/2109.00960).                     
+## 摘要：图像超分辨率在监控、遥感等领域具有重要意义。然而，由于光学设备相对昂贵，红外（IR）图像通常具有低分辨率。近年来，深度学习方法在图像超分辨率方面占据主导地位，并在可见光图像上取得了显著的效果；然而，红外图像受到的关注较少。红外图像具有较少的模式，因此，深度神经网络（DNN）很难从红外图像中学习不同的特征。在本文中，我们提出了一个采用异构卷积和对抗性训练的红外图像超分辨率框架，即基于异构核的超分辨率Wasserstein-GAN（HetSRWGAN）。HetSRWGAN算法是一种轻量级的GAN体系结构，它应用了一种即插即用的异构内核剩余块。此外，采用了一种新的基于图像梯度的损耗函数，该函数可以应用于任意模型。拟议的HetSRWGAN在定性和定量评估方面都取得了一致的更好的绩效。实验结果表明，整个训练过程较为稳定。
+<details>	<summary>英文摘要</summary>	Image super-resolution is important in many fields, such as surveillance and remote sensing. However, infrared (IR) images normally have low resolution since the optical equipment is relatively expensive. Recently, deep learning methods have dominated image super-resolution and achieved remarkable performance on visible images; however, IR images have received less attention. IR images have fewer patterns, and hence, it is difficult for deep neural networks (DNNs) to learn diverse features from IR images. In this paper, we present a framework that employs heterogeneous convolution and adversarial training, namely, heterogeneous kernel-based super-resolution Wasserstein GAN (HetSRWGAN), for IR image super-resolution. The HetSRWGAN algorithm is a lightweight GAN architecture that applies a plug-and-play heterogeneous kernel-based residual block. Moreover, a novel loss function that employs image gradients is adopted, which can be applied to an arbitrary model. The proposed HetSRWGAN achieves consistently better performance in both qualitative and quantitative evaluations. According to the experimental results, the whole training process is more stable. </details>
+<details>	<summary>注释</summary>	To be published in the 18th Pacific Rim International Conference on Artificial Intelligence (PRICAI-2021) </details>
+<details>	<summary>邮件日期</summary>	2021年09月03日</details>
+
+# 247、基于CNN的图像超分辨率双参考训练数据采集方法
+- [ ] An Efficient Dual-reference Training Data Acquisition Method for CNN-Based Image Super-Resolution 
+时间：2021年09月02日                         第一作者：Yanhui Guo                       [链接](https://arxiv.org/abs/2108.02348).                     
+<details>	<summary>邮件日期</summary>	2021年09月03日</details>
+
+# 246、基于深度学习的人脸超分辨率研究综述
+- [ ] Deep Learning-based Face Super-Resolution: A Survey 
+时间：2021年09月01日                         第一作者：Junjun Jiang                       [链接](https://arxiv.org/abs/2101.03749).                     
+<details>	<summary>注释</summary>	Accepted to ACM Computing Surveys </details>
+<details>	<summary>邮件日期</summary>	2021年09月02日</details>
+
+# 245、无约束时空视频超分辨率学习
+- [ ] Learning for Unconstrained Space-Time Video Super-Resolution 
+时间：2021年08月31日                         第一作者：Zhihao Shi                       [链接](https://arxiv.org/abs/2102.13011).                     
+<details>	<summary>邮件日期</summary>	2021年09月02日</details>
+
+# 244、用于高光谱人脸超分辨率的光谱分裂和聚合网络
+- [ ] Spectral Splitting and Aggregation Network for Hyperspectral Face Super-Resolution 
+时间：2021年08月31日                         第一作者：Junjun Jiang                        [链接](https://arxiv.org/abs/2108.13584).                     
+## 摘要：高分辨率（HR）高光谱人脸图像在非受控条件下（如弱光环境和欺骗攻击）与人脸相关的计算机视觉任务中起着重要作用。然而，高光谱人脸图像的密集光谱带是以有限数量的光子平均到达狭窄的光谱窗口为代价的，这大大降低了高光谱人脸图像的空间分辨率。在本文中，我们研究了如何将深度学习技术应用于高光谱人脸图像超分辨率（HFSR），特别是在训练样本非常有限的情况下。利用谱带的数量，每个谱带都可以看作一幅图像，我们提出了一个训练样本有限的HFSR谱分裂和聚合网络（SSANet）。在浅层中，我们将高光谱图像分成不同的光谱组，并将每个光谱组作为一个单独的训练样本（从某种意义上说，每个光谱组将被送入同一个网络）。然后，我们逐渐聚集更深层次的相邻波段，以利用光谱相关性。通过这种光谱分割和聚集策略（SSAS），我们可以将原始高光谱图像分割成多个样本，以支持网络的有效训练，并有效地利用光谱之间的光谱相关性。为了应对小训练样本量（S3）问题的挑战，我们建议通过自表示模型和对称诱导增强来扩展训练样本。实验表明，引入的SSANet能够很好地模拟空间和光谱信息的联合相关性。通过扩展训练样本，我们提出的方法可以有效地缓解S3问题。比较结果表明，我们提出的方法优于现有的方法。
+<details>	<summary>英文摘要</summary>	High-resolution (HR) hyperspectral face image plays an important role in face related computer vision tasks under uncontrolled conditions, such as low-light environment and spoofing attacks. However, the dense spectral bands of hyperspectral face images come at the cost of limited amount of photons reached a narrow spectral window on average, which greatly reduces the spatial resolution of hyperspectral face images. In this paper, we investigate how to adapt the deep learning techniques to hyperspectral face image super-resolution (HFSR), especially when the training samples are very limited. Benefiting from the amount of spectral bands, in which each band can be seen as an image, we present a spectral splitting and aggregation network (SSANet) for HFSR with limited training samples. In the shallow layers, we split the hyperspectral image into different spectral groups and take each of them as an individual training sample (in the sense that each group will be fed into the same network). Then, we gradually aggregate the neighbor bands at the deeper layers to exploit the spectral correlations. By this spectral splitting and aggregation strategy (SSAS), we can divide the original hyperspectral image into multiple samples to support the efficient training of the network and effectively exploit the spectral correlations among spectrum. To cope with the challenge of small training sample size (S3) problem, we propose to expand the training samples by a self-representation model and symmetry-induced augmentation. Experiments show that the introduced SSANet can well model the joint correlations of spatial and spectral information. By expanding the training samples, our proposed method can effectively alleviate the S3 problem. The comparison results demonstrate that our proposed method can outperform the state-of-the-arts. </details>
+<details>	<summary>注释</summary>	12 pages, 10 figures </details>
+<details>	<summary>邮件日期</summary>	2021年09月01日</details>
+
+# 243、基于注意的图像超分辨率多参考学习
+- [ ] Attention-based Multi-Reference Learning for Image Super-Resolution 
+时间：2021年08月31日                         第一作者：Marco Pesavento                       [链接](https://arxiv.org/abs/2108.13697).                     
+## 摘要：本文提出了一种新的基于注意的多参考超分辨率网络（AMRSR），该网络在给定低分辨率图像的情况下，学习将多参考图像中最相似的纹理自适应地传输到超分辨率输出，同时保持空间一致性。在多个基准数据集上，使用多个参考图像和基于注意的采样可以显著提高最先进的参考超分辨率方法的性能。参考超分辨率方法最近被提出，通过提供来自高分辨率参考图像的附加信息来克服图像超分辨率的不适定问题。多参考超分辨率通过提供更多样化的图像特征池来扩展此方法，以克服固有的信息不足，同时保持内存效率。提出了一种新的基于分层注意的抽样方法，用于基于感知损失的低分辨率图像特征与多幅参考图像之间的相似性学习。消融证明了多参考和基于分层注意的抽样对整体表现的贡献。即使参考图像明显偏离目标图像，感知和定量的地面真实度评估也显示出显著的性能改进。项目网站可在以下网址找到：https://marcopesavento.github.io/AMRSR/
+<details>	<summary>英文摘要</summary>	This paper proposes a novel Attention-based Multi-Reference Super-resolution network (AMRSR) that, given a low-resolution image, learns to adaptively transfer the most similar texture from multiple reference images to the super-resolution output whilst maintaining spatial coherence. The use of multiple reference images together with attention-based sampling is demonstrated to achieve significantly improved performance over state-of-the-art reference super-resolution approaches on multiple benchmark datasets. Reference super-resolution approaches have recently been proposed to overcome the ill-posed problem of image super-resolution by providing additional information from a high-resolution reference image. Multi-reference super-resolution extends this approach by providing a more diverse pool of image features to overcome the inherent information deficit whilst maintaining memory efficiency. A novel hierarchical attention-based sampling approach is introduced to learn the similarity between low-resolution image features and multiple reference images based on a perceptual loss. Ablation demonstrates the contribution of both multi-reference and hierarchical attention-based sampling to overall performance. Perceptual and quantitative ground-truth evaluation demonstrates significant improvement in performance even when the reference images deviate significantly from the target image. The project website can be found at https://marcopesavento.github.io/AMRSR/ </details>
+<details>	<summary>邮件日期</summary>	2021年09月01日</details>
+
+# 242、4D人体表演的超分辨率外观转移
+- [ ] Super-Resolution Appearance Transfer for 4D Human Performances 
+时间：2021年08月31日                         第一作者：Marco Pesavento                       [链接](https://arxiv.org/abs/2108.13739).                     
+## 摘要：从多视点视频中对人进行4D重建的一个常见问题是捕获的动态纹理外观的质量，这取决于相机分辨率和捕获体积。通常，要求对摄像机进行帧处理以捕获动态性能的体积（$>50m^3$）导致人员仅占据视野的一小部分$<$10%。即使使用超高清晰度4k视频采集，这也会导致以低于标准清晰度0.5k视频分辨率对人进行采样，从而导致低质量渲染。在本文中，我们提出了一种解决方案，通过使用数字静物照相机（$>8k$）从静态高分辨率外观捕捉装置进行超分辨率外观转移，以小体积（$<8m^3$）捕捉人物。提出了一种从高分辨率静态捕获到动态视频性能捕获的超分辨率外观转换管道，以生成超分辨率动态纹理。这解决了两个关键问题：不同摄像机系统之间的颜色映射；并利用学习到的模型进行动态纹理贴图超分辨率处理。对比评估表明，在呈现具有超分辨率动态纹理外观的4D性能捕获方面，在定性和定量方面都有显著改进。所提出的方法再现了静态捕获的高分辨率细节，同时保持捕获视频的外观动态。
+<details>	<summary>英文摘要</summary>	A common problem in the 4D reconstruction of people from multi-view video is the quality of the captured dynamic texture appearance which depends on both the camera resolution and capture volume. Typically the requirement to frame cameras to capture the volume of a dynamic performance ($>50m^3$) results in the person occupying only a small proportion $<$ 10% of the field of view. Even with ultra high-definition 4k video acquisition this results in sampling the person at less-than standard definition 0.5k video resolution resulting in low-quality rendering. In this paper we propose a solution to this problem through super-resolution appearance transfer from a static high-resolution appearance capture rig using digital stills cameras ($> 8k$) to capture the person in a small volume ($<8m^3$). A pipeline is proposed for super-resolution appearance transfer from high-resolution static capture to dynamic video performance capture to produce super-resolution dynamic textures. This addresses two key problems: colour mapping between different camera systems; and dynamic texture map super-resolution using a learnt model. Comparative evaluation demonstrates a significant qualitative and quantitative improvement in rendering the 4D performance capture with super-resolution dynamic texture appearance. The proposed approach reproduces the high-resolution detail of the static capture whilst maintaining the appearance dynamics of the captured video. </details>
+<details>	<summary>邮件日期</summary>	2021年09月01日</details>
+
+# 241、复杂噪声下的无监督单幅图像超分辨率
+- [ ] Unsupervised Single Image Super-resolution Under Complex Noise 
+时间：2021年08月30日                         第一作者：Zongsheng Yue                       [链接](https://arxiv.org/abs/2107.00986).                     
+<details>	<summary>邮件日期</summary>	2021年09月01日</details>
+
 # 240、通过对抗鲁棒性实现广义真实世界超分辨率
 - [ ] Generalized Real-World Super-Resolution through Adversarial Robustness 
 时间：2021年08月25日                         第一作者：Angela Castillo                       [链接](https://arxiv.org/abs/2108.11505).                     
