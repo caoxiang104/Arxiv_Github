@@ -1,3 +1,9 @@
+# 258、D2C-SR：一种用于实际图像超分辨率的发散收敛方法
+- [ ] D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution 
+时间：2021年09月15日                         第一作者：Youwei Li                       [链接](https://arxiv.org/abs/2103.14373).                     
+<details>	<summary>注释</summary>	14 pages, 12 figures </details>
+<details>	<summary>邮件日期</summary>	2021年09月16日</details>
+
 # 257、D2C-SR：一种用于实际图像超分辨率的发散收敛方法
 - [ ] D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution 
 时间：2021年09月14日                         第一作者：Youwei Li                       [链接](https://arxiv.org/abs/2103.14373).                     
